@@ -1,1 +1,136 @@
-HELLO
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Links | dibash.info.np</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="./main.js" defer></script>
+<script src="./search.js" defer></script>
+<style>
+        *,
+        :after,
+        :before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            animation-timing-function: linear;
+            transition: 1s;
+        }
+
+        body {
+            overflow-y: auto;
+            height: 100vh;
+            padding: 0.5rem;
+            padding-top: 0;
+            background-image: linear-gradient(to right, #e6d1cf, #f2f1e9, #eaf2e9, #e9f2f2, #e9e9f2, #f2e9f2, #f2e9e9);
+        }
+
+        .container {
+            overflow-y: auto;
+            height: calc(100vh - 70px);
+        }
+
+        .links_container {
+            max-height: calc(100vh - 250px);
+            overflow-y: auto;
+        }
+
+        details {
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            padding: .5em .5em 0;
+            margin-top: 5px;
+        }
+
+        details[open] {
+            padding: .5em;
+        }
+
+        details[open] summary {
+            border-bottom: 1px solid #aaa;
+            margin-bottom: .5em;
+        }
+
+        summary {
+            font-weight: bold;
+            margin: -.5em -.5em 0;
+            margin-bottom: 0px;
+            padding: .5em;
+            cursor: pointer;
+        }
+
+        * {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+
+        .searchContainer {
+            height: 55px;
+            padding: 9px;
+            ;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px 40px;
+            border-radius: 30px;
+            background-image: url('./search_icon.png');
+            background-position: 8px 10px;
+            background-repeat: no-repeat;
+            z-index: 6;
+            position: relative;
+        }
+
+        .transparent_BG {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: #00000063;
+            z-index: 5;
+            backdrop-filter: blur(5px);
+            padding: 1rem;
+        }
+
+        .filteredItems_Summarry {
+            width: 100%;
+            position: relative;
+            top: 75px;
+            font-weight: 900;
+            color: white;
+        }
+
+        .filteredItems_List {
+            font-weight: 900;
+            color: white;
+            position: relative;
+            top: 100px;
+        }
+
+        .filteredItems_List a {
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+<div class="searchContainer">
+<input placeholder="Search File Name Here..." id="SearchInput" autofocus>
+</div>
+<div class="container">
+</div>
+</body>
+</html>
