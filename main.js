@@ -51,6 +51,10 @@ const FILE_LINKS_OBJ = {
         {
             "display_name": 'File Compress',
             'link_obj': 'https://www.wecompress.com/en/'
+        },      
+        {
+            "display_name": 'local governments',
+            'link_obj': 'http://103.69.124.141/gis/website/'
         },
 
 
