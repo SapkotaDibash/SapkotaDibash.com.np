@@ -40,7 +40,7 @@ const FILE_LINKS_OBJ = {
 
     "Sports": [{
             "display_name": 'FootBall Live',
-            'link_obj': 'https://x.livehd7xc.com/albaplayer/bein1/?serv=1'
+            'link_obj': 'https://www.streameast.gd/fixture/148162113'
         },
 
 
