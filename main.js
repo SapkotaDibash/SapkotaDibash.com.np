@@ -39,7 +39,7 @@ const FILE_LINKS_OBJ = {
     // ],
 
     "Sports": [{
-            "display_name": 'FootBall Live',
+            "display_name": 'F00ootBall1 Live',
             'link_obj': 'https://www.streameast.gd/fixture/148162113'
         },
 
